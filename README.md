@@ -1,0 +1,1 @@
+# laravel9_bootstrap_auth_scaffolding
