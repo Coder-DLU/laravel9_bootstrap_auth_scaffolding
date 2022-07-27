@@ -7,6 +7,11 @@ composer create-project laravel/laravel laravel9_bootstrap_auth_scaffolding
 ```Dockerfile
 composer require laravel/ui
 ```
+```Dockerfile
+php artisan ui bootstrap
+OR
+php artisan ui bootstrap --auth
+```
 - command để cài đặt  npm
 ```Dockerfile
 npm install && npm run dev
