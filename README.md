@@ -30,3 +30,19 @@ php artisan serve
 ![Container](a1.png)
 ![Container](a2.png)
 ![Container](a3.png)
+Chúng ta có thể sử dụng bootstrap 5 
+```Dockerfile
+<!doctype html>
+<html>
+<head>
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}" defer></script>
+   
+    <!-- Styles -->
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+</head>
+<body>
+    <h1>This is example from ItSolutionStuff.com</h1>
+</body>
+</html>
+```
